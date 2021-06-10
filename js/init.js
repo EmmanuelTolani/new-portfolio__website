@@ -38,7 +38,7 @@ jQuery(document).ready(function () {
   window.addEventListener("load", function () {
     setTimeout(function () {
       jQuery(".arlo_tm_preloader").addClass("loaded");
-    }, 1000);
+    }, 500);
     arlo_tm_isotope();
   });
 });
@@ -268,7 +268,7 @@ function arlo_tm_animate_text() {
   var animateSpan = jQuery(".arlo_tm_animation_text_word");
 
   animateSpan.typed({
-    strings: ["FrontEnd Developer", "Content Editor", "Email Marketer"],
+    strings: ["Front-end Developer", "React Developer", "Email Marketer"],
     loop: true,
     startDelay: 1e3,
     backDelay: 2e3,

@@ -481,7 +481,7 @@ h6 {
   right: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 40%;
+  background-position: 30% 20%;
 }
 .arlo_tm_hero .background .overlay {
   position: absolute;
@@ -489,7 +489,7 @@ h6 {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0,23,0,0.4);
   z-index: 1;
 }
 .arlo_tm_hero .content {
@@ -514,7 +514,7 @@ h6 {
   left: 0px;
   right: 0px;
   background-repeat: no-repeat;
-  background-position: 50% 20%;
+  background-position: 60% 0%;
   background-size: cover;
   border-radius: 100%;
 }
@@ -526,7 +526,7 @@ h6 {
   left: -8px;
   right: -8px;
   border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.3);
   z-index: -1;
 }
 .arlo_tm_hero .name_holder {
@@ -726,6 +726,13 @@ h6 {
   min-width: 85px;
   display: inline-block;
 }
+.arlo_tm_about ul li:nth-child(4) label {
+  font-weight: 600;
+  color: #000;
+  min-width: 45px;
+  display: inline-block;
+}
+
 .arlo_tm_about .about_short_contact_wrap ul li a {
   text-decoration: none;
   color: #000;
@@ -1790,7 +1797,7 @@ body.modal {
   top: 0px;
   left: 0px;
   bottom: 0px;
-  background-color: #011f4b;
+  background-color: #0b172a;
   z-index: 3;
   box-shadow: 0 0 30px rgba(0, 34, 69, 0.05);
 
@@ -1909,7 +1916,7 @@ body.modal {
 }
 .arlo_tm_leftpart .inner .bottom ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;

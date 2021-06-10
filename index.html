@@ -34,6 +34,63 @@
       gtag("config", "UA-196269208-1");
     </script>
 
+    <!-- End of Google Analytics -->
+
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
+
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on",
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("9ku9cik4n27p");
+    </script>
+    <!-- End of Async Drift Code -->
+
     <!-- STYLES -->
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -85,15 +142,15 @@
     <!-- If you want DARK MODE just add class 'dark' to body. For Example: <body class="dark"> -->
 
     <!-- PRELOADER -->
-    <div class="arlo_tm_preloader">
+    <!-- <div class="arlo_tm_preloader">
       <div class="spinner_wrap">
         <div class="spinner"></div>
       </div>
-    </div>
+    </div> -->
     <!-- /PRELOADER -->
 
     <!-- WRAPPER ALL -->
-    <div class="arlo_tm_all_wrap" data-magic-cursor="" data-color="crimson">
+    <div class="arlo_tm_all_wrap" data-magic-cursor="" data-color="red">
       <!-- "" is default option -->
 
       <!-- MAGIC CURSOR VALUES: "", hide -->
@@ -116,7 +173,16 @@
           <div class="container">
             <div class="mobile_in">
               <div class="logo">
-                <a href="#"><img src="img/logo/mobile/dark.png" alt="" /></a>
+                <a href="#"
+                  ><img
+                    src="img/logo/sidebar/dark-logo.png"
+                    alt="emmanuel tolani dark logo"
+                    style="
+                      transform: scale(3);
+                      margin-left: 50px;
+                      padding-top: 5px;
+                    "
+                /></a>
               </div>
               <div class="my_trigger">
                 <div class="hamburger hamburger--collapse-r">
@@ -150,9 +216,16 @@
           <div class="logo">
             <a href="#"
               ><img
-                src="img/logo/sidebar/light-E.png"
-                alt=""
-                style="height: 300px; width: 450px"
+                src="img/logo/sidebar/light-logo.png"
+                alt="emmanuel tolani light logo"
+                style="
+                  height: 300px;
+                  width: 300px;
+                  object-fit: cover;
+                  transform: scale(1.5);
+                  padding: 0;
+                  margin: 0;
+                "
             /></a>
           </div>
           <div class="menu scrollable">
@@ -168,29 +241,21 @@
             <div class="social">
               <ul>
                 <li>
-                  <a href="#"
-                    ><img class="svg" src="img/svg/social/facebook.svg" alt=""
-                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/emmanuel-tolani-0b5a9b188/"
+                    alt="linkedin"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"
-                    ><img class="svg" src="img/svg/social/twitter.svg" alt=""
-                  /></a>
+                  <a href="https://dribbble.com/tolanie" alt="dribbble"
+                    ><i class="fab fa-dribbble"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"
-                    ><img class="svg" src="img/svg/social/behance.svg" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img class="svg" src="img/svg/social/dribbble.svg" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img class="svg" src="img/svg/social/tik-tok.svg" alt=""
-                  /></a>
+                  <a href="https://github.com/EmmanuelTolani" alt="github"
+                    ><i class="fab fa-github"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -206,7 +271,8 @@
           <div class="background">
             <div
               class="image"
-              data-img-url="img/slider/water-background.jpg"
+              data-img-url="img/slider/mountain-view.jpeg"
+              alt="Scenic photo of mountain-view and lake surrounded by forest tree line "
             ></div>
             <div class="particle_wrapper">
               <div id="particles-js"></div>
@@ -215,7 +281,11 @@
           </div>
           <div class="content">
             <div class="image_wrap">
-              <div class="main" data-img-url="img/about/brandin-img.jpg"></div>
+              <div
+                class="main"
+                data-img-url="img/about/brandin-img1.jpg"
+                alt="Emmanuel Tolani"
+              ></div>
             </div>
             <div class="name_holder">
               <h3>Emmanuel <span>Tolani</span></h3>
@@ -244,15 +314,19 @@
                   data-relative-input="true"
                 >
                   <div class="image layer" data-depth="0.1">
-                    <img src="img/ratios/550x650.jpg" alt="" />
+                    <img src="img/ratios/550x650.jpg" alt="frame" />
                     <div
                       class="inner"
                       data-img-url="img/about/brandin-img.jpg"
                       style="background-position: 50%"
+                      alt="Emmanuel Tolani in jean jacket and smiling"
                     ></div>
                   </div>
                   <div class="border layer" data-depth="0.2">
-                    <img src="img/ratios/550x650.jpg" alt="" />
+                    <img
+                      src="img/ratios/550x650.jpg"
+                      alt="frame around main photo"
+                    />
                     <div class="inner"></div>
                   </div>
                 </div>
@@ -260,14 +334,21 @@
               <div class="right">
                 <div class="about_title">
                   <h3>
-                    I'm Emmanuel Tolani and
+                    I'm Emmanuel Tolani and a
                     <span class="arlo_tm_animation_text_word"></span>
                   </h3>
                 </div>
                 <div class="text">
-                  <p>
-                    Hi! My name is <span>Emmanuel Tolani</span>. I am a Web
-                    Developer, and I'm very passionate and dedicated to my work.
+                  <p style="text-indent: 30px; margin-bottom: 1rem">
+                    Hi! My name is <span>Emmanuel Tolani</span>! I am a recent
+                    college grad, who specializes in front-end development. I
+                    believe my background in computer science, marketing, and
+                    design allows me to have a holistic view of development.
+                  </p>
+                  <p style="text-indent: 30px; margin-bottom: 1rem">
+                    I am fueled by my passion for learning, and I consider
+                    myself a "forever student". I continually strive to develop
+                    my professional skills and expertise in development.
                   </p>
                 </div>
                 <div class="about_short_contact_wrap">
@@ -293,31 +374,40 @@
                       <img
                         class="svg"
                         src="img/svg/game-controller-2.svg"
-                        alt=""
+                        alt="video game controller"
                       />
                       <span
-                        ><label>Interests:</label> Ecommerce, Reading,
+                        ><label>Interests:</label>Ecommerce, Personal Training,
                         Basketball</span
                       >
                     </li>
                     <li>
-                      <img class="svg" src="img/svg/study-5.svg" alt="" />
+                      <img
+                        class="svg"
+                        src="img/svg/study-5.svg"
+                        alt="person reading a book"
+                      />
                       <span
-                        ><label>Study:</label>
-                        <a class="href_location" href="#">
-                          University of Saskatchewan</a
-                        ></span
-                      >
+                        ><label>University:</label> University of Saskatchewan
+                      </span>
                     </li>
                     <li>
-                      <img class="svg" src="img/svg/degree-1.svg" alt="" />
-                      <span><label>Degree:</label> Bachelors</span>
+                      <img
+                        class="svg"
+                        src="img/svg/degree-1.svg"
+                        alt="graduation cap"
+                      />
+                      <span><label>Degree:</label>Computer Science</span>
                     </li>
                     <li>
-                      <img class="svg" src="img/svg/message-3.svg" alt="" />
+                      <img
+                        class="svg"
+                        src="img/svg/message-3.svg"
+                        alt="envelope"
+                      />
                       <span
-                        ><label>Mail:</label>
-                        <a href="mailto:emmanueltolani17@gmail.com"
+                        ><label>Mail:</label
+                        ><a href="mailto:emmanueltolani17@gmail.com"
                           >emmanueltolani17&#64;gmail.com</a
                         ></span
                       >
@@ -358,9 +448,18 @@
                 <ul>
                   <li class="wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="inner">
-                      <img class="svg" src="img/svg/html5-brands.svg" />
-                      <h3>Html</h3>
-                      <p></p>
+                      <img
+                        class="svg"
+                        src="img/svg/code.svg"
+                        alt="desktop
+                      closed code bracket"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
+                      />
+                      <h3>Html | Css | Javascript</h3>
+                      <p>Creating dynamic and responsive websites.</p>
                     </div>
                   </li>
                   <li
@@ -371,11 +470,18 @@
                     <div class="inner">
                       <img
                         class="svg"
-                        src="img/svg/css3-alt-brands.svg"
-                        alt=""
+                        src="img/svg/google-brands.svg"
+                        alt="google g"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
                       />
-                      <h3>Css</h3>
-                      <p></p>
+                      <h3>Google Analytics</h3>
+                      <p>
+                        Understanding your users and collecting data to improve
+                        your business decisions.
+                      </p>
                     </div>
                   </li>
                   <li
@@ -384,16 +490,38 @@
                     data-wow-delay="0.4s"
                   >
                     <div class="inner">
-                      <img class="svg" src="img/svg/js-brands.svg" alt="" />
-                      <h3>Javascript</h3>
-                      <p></p>
+                      <img
+                        class="svg"
+                        src="img/svg/creativity.svg"
+                        alt="light bulb"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
+                      />
+                      <h3>Web Design</h3>
+                      <p>
+                        Creating user-friendly web designs with applications
+                        like Figma, and Photoshop.
+                      </p>
                     </div>
                   </li>
                   <li class="wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="inner">
-                      <img class="svg" src="img/svg/photoshop.svg" alt="" />
-                      <h3>Adobe Photoshop</h3>
-                      <p></p>
+                      <img
+                        class="svg"
+                        src="img/svg/message-3.svg"
+                        alt="envelope"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
+                      />
+                      <h3>Email Development</h3>
+                      <p>
+                        Creating marketing emails to sell products and display
+                        offers.
+                      </p>
                     </div>
                   </li>
                   <li
@@ -402,9 +530,20 @@
                     data-wow-delay="0.2s"
                   >
                     <div class="inner">
-                      <img class="svg" src="img/svg/react-brands.svg" alt="" />
+                      <img
+                        class="svg"
+                        src="img/svg/react-brands.svg"
+                        alt="atom"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
+                      />
                       <h3>React</h3>
-                      <p></p>
+                      <p>
+                        Building composable user interfaces, with reusable UI
+                        components with React and Next.js
+                      </p>
                     </div>
                   </li>
                   <li
@@ -416,10 +555,17 @@
                       <img
                         class="svg"
                         src="img/svg/git-alt-brands.svg"
-                        alt=""
+                        alt="code branch"
+                        style="
+                          filter: invert(28%) sepia(100%) saturate(4766%)
+                            hue-rotate(349deg) brightness(107%) contrast(119%);
+                        "
                       />
                       <h3>Git</h3>
-                      <p></p>
+                      <p>
+                        Work with other developers with BitBucket, Sourcetree,
+                        or Github
+                      </p>
                     </div>
                   </li>
                 </ul>
@@ -963,11 +1109,7 @@
                     class="right wow fadeInLeft"
                     data-wow-duration="1.5s"
                     data-wow-delay=".2s"
-                  >
-                    <div class="map_wrap">
-                      <div class="map" id="ieatmaps"></div>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
             </div>
@@ -990,44 +1132,21 @@
                 >
                   <ul>
                     <li>
-                      <a href="#"
-                        ><img
-                          class="svg"
-                          src="img/svg/social/facebook.svg"
-                          alt=""
-                      /></a>
+                      <a
+                        href="https://www.linkedin.com/in/emmanuel-tolani-0b5a9b188/"
+                        alt="linkedin"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
                     </li>
                     <li>
-                      <a href="#"
-                        ><img
-                          class="svg"
-                          src="img/svg/social/twitter.svg"
-                          alt=""
-                      /></a>
+                      <a href="https://dribbble.com/tolanie" alt="dribbble"
+                        ><i class="fab fa-dribbble"></i
+                      ></a>
                     </li>
                     <li>
-                      <a href="#"
-                        ><img
-                          class="svg"
-                          src="img/svg/social/behance.svg"
-                          alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          class="svg"
-                          src="img/svg/social/dribbble.svg"
-                          alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          class="svg"
-                          src="img/svg/social/tik-tok.svg"
-                          alt=""
-                      /></a>
+                      <a href="https://github.com/EmmanuelTolani" alt="github"
+                        ><i class="fab fa-github"></i
+                      ></a>
                     </li>
                   </ul>
                 </div>
@@ -1052,11 +1171,6 @@
     <![endif]-->
     <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"
-    ></script>
     <!-- /SCRIPTS -->
   </body>
 </html>
