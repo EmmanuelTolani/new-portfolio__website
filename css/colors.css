@@ -13,7 +13,7 @@
   background-color: #ff5e94;
 }
 .arlo_tm_settings .colors li a.orange {
-  background-color: #ff5349;
+  background-color: #ffc30b;
 }
 .arlo_tm_settings .colors li a.black {
   background-color: #333;
@@ -493,10 +493,10 @@
 }
 
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_topbar .menu ul li.current a {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_topbar .menu ul li a:hover {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_leftpart
@@ -505,7 +505,7 @@
   ul
   li.current
   a {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_leftpart
@@ -514,13 +514,13 @@
   ul
   li
   a:hover {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_hero .name_holder h3 span {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_main_title span {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_about
@@ -528,10 +528,10 @@
   .about_title
   h3
   .arlo_tm_animation_text_word {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_about .right .text span {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_about
@@ -539,10 +539,10 @@
   ul
   li
   .svg {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .arlo_tm_button a {
-  background-color: #ff5349;
+  background-color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_services
@@ -551,7 +551,7 @@
   li
   .inner
   .svg {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_portfolio
@@ -559,7 +559,7 @@
   ul
   li
   a.current {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_portfolio
@@ -567,7 +567,7 @@
   ul
   li
   a:hover {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_news
@@ -577,7 +577,7 @@
   .details
   .title
   a:hover {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_news
@@ -587,22 +587,22 @@
   .details
   .date
   a:hover {
-  color: #ff5349;
+  color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"]
   .arlo_tm_modalbox_news
   .description
   blockquote {
-  border-left-color: #ff5349;
+  border-left-color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .cursor-inner.cursor-hover {
-  background-color: #ff5349;
+  background-color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .cursor-outer {
-  border-color: #ff5349;
+  border-color: #ffc30b;
 }
 .arlo_tm_all_wrap[data-color="orange"] .cursor-inner {
-  background-color: #ff5349;
+  background-color: #ffc30b;
 }
 
 .arlo_tm_all_wrap[data-color="black"] .arlo_tm_topbar .menu ul li.current a {
