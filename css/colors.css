@@ -9,7 +9,7 @@
 .arlo_tm_settings .colors li a.black{background-color: #333;}
 .arlo_tm_settings .colors li a.white{background-color: #e5e5e5;}
 .arlo_tm_settings .colors li a.purple{background-color: #9200ee;}
-.arlo_tm_settings .colors li a.sky{background-color: #00D4BD;}
+.arlo_tm_settings .colors li a.sky{background-color: #11B5E4;}
 .arlo_tm_settings .colors li a.cadetBlue{background-color: #5e9e9f;}
 .arlo_tm_settings .colors li a.crimson{background-color: #e65f78;}
 .arlo_tm_settings .colors li a.olive{background-color: #666d41;}
@@ -184,25 +184,25 @@
 .arlo_tm_all_wrap[data-color="purple"] .cursor-inner{background-color: #9200ee;}
 
 
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_topbar .menu ul li.current a{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_topbar .menu ul li a:hover{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_leftpart .inner .menu ul li.current a{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_leftpart .inner .menu ul li a:hover{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_hero .name_holder h3 span{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_main_title span{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .right .about_title h3 .arlo_tm_animation_text_word{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .right .text span{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .about_short_contact_wrap ul li .svg{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_button a{background-color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_services .service_inner ul li .inner .svg{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_portfolio .portfolio_filter ul li a:hover{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_news .news_list ul li .details .title a:hover{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_news .news_list ul li .details .date a:hover{color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_modalbox_news .description blockquote{border-left-color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .cursor-inner.cursor-hover{background-color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .cursor-outer{border-color: #00D4BD;}
-.arlo_tm_all_wrap[data-color="sky"] .cursor-inner{background-color: #00D4BD;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_topbar .menu ul li.current a{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_topbar .menu ul li a:hover{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_leftpart .inner .menu ul li.current a{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_leftpart .inner .menu ul li a:hover{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_hero .name_holder h3 span{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_main_title span{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .right .about_title h3 .arlo_tm_animation_text_word{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .right .text span{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_about .about_short_contact_wrap ul li .svg{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_button a{background-color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_services .service_inner ul li .inner .svg{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_portfolio .portfolio_filter ul li a:hover{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_news .news_list ul li .details .title a:hover{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_news .news_list ul li .details .date a:hover{color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .arlo_tm_modalbox_news .description blockquote{border-left-color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .cursor-inner.cursor-hover{background-color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .cursor-outer{border-color: #11B5E4;}
+.arlo_tm_all_wrap[data-color="sky"] .cursor-inner{background-color: #11B5E4;}
 
 
 .arlo_tm_all_wrap[data-color="cadetBlue"] .arlo_tm_topbar .menu ul li.current a{color: #5e9e9f;}

@@ -274,10 +274,10 @@ h6 {
   color: #000;
 }
 .arlo_tm_topbar .menu ul li.current a {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_topbar .menu ul li a:hover {
-  color: #e65f78;
+  color: #11B5E4;
 }
 
 /*---------------------------------------------------*/
@@ -489,7 +489,7 @@ h6 {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgba(0,23,0,0.4);
+  background-color: rgba(0, 23, 0, 0.4);
   z-index: 1;
 }
 .arlo_tm_hero .content {
@@ -535,12 +535,12 @@ h6 {
 .arlo_tm_hero .name_holder h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 800;
   font-family: "Montserrat";
 }
 .arlo_tm_hero .name_holder h3 span {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_hero .text_typing p {
   color: #fff;
@@ -631,7 +631,7 @@ h6 {
   float: left;
 }
 .arlo_tm_main_title span {
-  color: #e65f78;
+  color: #11B5E4;
   display: inline-block;
   font-family: "Poppins";
   font-weight: 500;
@@ -689,14 +689,14 @@ h6 {
   font-weight: 600;
 }
 .arlo_tm_about .right .about_title h3 .arlo_tm_animation_text_word {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_about .right .text {
   margin-bottom: 23px;
   float: left;
 }
 .arlo_tm_about .right .text span {
-  color: #e65f78;
+  color: #11B5E4;
   font-style: italic;
 }
 .arlo_tm_about .about_short_contact_wrap {
@@ -767,7 +767,7 @@ h6 {
   top: 6px;
   width: 17px;
   height: 17px;
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_button {
   width: 100%;
@@ -778,7 +778,7 @@ h6 {
 .arlo_tm_button a {
   text-decoration: none;
   color: #fff;
-  background-color: #e65f78;
+  background-color: #11B5E4;
   display: inline-block;
   padding: 12px 45px;
   font-family: "Poppins";
@@ -856,7 +856,7 @@ h6 {
 .arlo_tm_services .service_inner ul li .inner .svg {
   width: 50px;
   height: 50px;
-  color: #e65f78;
+  color: #11B5E4;
   margin-bottom: 17px;
 }
 .arlo_tm_services .service_inner ul li .inner h3 {
@@ -961,10 +961,10 @@ h6 {
   transition: all 0.3s ease;
 }
 .arlo_tm_portfolio .portfolio_filter ul li a.current {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_portfolio .portfolio_filter ul li a:hover {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_portfolio .portfolio_list {
   width: 100%;
@@ -1017,26 +1017,25 @@ h6 {
   text-align: center;
 }
 .arlo_tm_portfolio .portfolio_list ul li .portfolio-links .p-link {
-    font-size: 1.1rem;
-    padding: 20px 10px 0px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #000;
-    position: relative;
-    display: inline-block;
-    font-weight: 300;
-    font-family: "Poppins";
+  font-size: 1.1rem;
+  padding: 20px 10px 0px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  font-family: "Poppins";
 
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease, underline 1s ease-in-out
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease, underline 1s ease-in-out;
 }
 .arlo_tm_portfolio .portfolio_list ul li .portfolio-links .p-link:hover {
   text-decoration: underline;
-  color: #e65f78;
-
+  color: #11B5E4;
 }
 .arlo_tm_portfolio_titles {
   white-space: nowrap;
@@ -1069,8 +1068,6 @@ h6 {
 .entry {
   position: relative;
 }
-
-
 
 /*---------------------------------------------------*/
 /*	08) ARLO COUNTER
@@ -1232,7 +1229,7 @@ h6 {
   transition: all 0.3s ease;
 }
 .arlo_tm_news .news_list ul li .details .title a:hover {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_news .news_list ul li .details .date {
   text-transform: uppercase;
@@ -1252,7 +1249,7 @@ h6 {
   transition: all 0.3s ease;
 }
 .arlo_tm_news .news_list ul li .details .date a:hover {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_news .news_list ul li .details .date span {
   position: relative;
@@ -1386,7 +1383,7 @@ body.modal {
 .arlo_tm_modalbox_news .description blockquote {
   font-style: italic;
   color: #000;
-  border-left: 2px solid #e65f78;
+  border-left: 2px solid #11B5E4;
   padding-left: 20px;
   margin-bottom: 15px;
 }
@@ -1431,7 +1428,7 @@ body.modal {
   transition: all 0.3s ease;
 }
 .arlo_tm_modalbox_news .date a:hover {
-  color: #e65f78;
+  color: #11B5E4;
 }
 .arlo_tm_modalbox_news .date span {
   position: relative;
@@ -1650,7 +1647,7 @@ body.modal {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #e65f78;
+  background-color: #11B5E4;
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
@@ -1661,7 +1658,7 @@ body.modal {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #e65f78;
+  background-color: #11B5E4;
   opacity: 0.3;
 }
 .cursor-outer {
@@ -1669,7 +1666,7 @@ body.modal {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #e65f78;
+  border: 2px solid #11B5E4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
@@ -1797,7 +1794,7 @@ body.modal {
   top: 0px;
   left: 0px;
   bottom: 0px;
-  background-color: #151B54;
+  background-color: #034748;
   z-index: 3;
   box-shadow: 0 0 30px rgba(0, 34, 69, 0.05);
 
@@ -1856,14 +1853,14 @@ body.modal {
   transition: all 0.3s ease;
 }
 .arlo_tm_leftpart .inner .menu ul li.current a {
-  color: #e54b4b;
+  color: #11B5E4;
 }
 .arlo_tm_leftpart .inner .menu ul li.current a:after {
   width: 100%;
 }
 
 .arlo_tm_leftpart .inner .menu ul li a:hover {
-  color: #e54b4b;
+  color: #11B5E4;
 }
 .arlo_tm_leftpart .inner .menu ul li a:before {
   position: absolute;
@@ -1924,9 +1921,10 @@ body.modal {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.arlo_tm_leftpart .inner .bottom ul li a:hover {
-  color: #e54b4b;
+.arlo_tm_leftpart .inner .bottom .social li a:hover {
+  color: #11B5E4;
 }
+
 
 .arlo_tm_rightpart {
   width: 100%;
@@ -2103,5 +2101,141 @@ body.modal {
   .arlo_tm_counter_section ul li {
     width: 100%;
     padding-left: 0px;
+  }
+}
+
+#portfolio-projects {
+  padding: 100px 15px;
+}
+#portfolio-projects .project-image {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+#portfolio-projects .project-image .img {
+  width: 100%;
+  height: 450px;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+#portfolio-projects span {
+  color: #11B5E4;
+  display: inline-block;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+#portfolio-projects h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+#portfolio-projects .info .buttons {
+  padding: 20px 0;
+}
+#portfolio-projects .info .buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+#portfolio-projects .info .buttons .fas {
+  color: #11B5E4;
+  margin-right: 10px;
+}
+#portfolio-projects .info .buttons a:hover {
+  background: #11B5E4;
+}
+
+#portfolio-projects .info .buttons a:hover .fas {
+  color: white;
+}
+#portfolio-projects p {
+  display: inline-block;
+  text-align: left;
+  border-radius: 3px;
+  color: #333;
+  font-size: 1.7rem;
+ font-size: 20px;
+ line-height: 2;
+ letter-spacing: 0.5px;
+ word-wrap: break-word;
+}
+#portfolio-projects .tech {
+  padding: 100px 0;
+}
+
+#portfolio-projects h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+#portfolio-projects .tech-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  align-items: center;
+  justify-items: center;
+}
+
+#portfolio-projects .tech .icons .icon img {
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#portfolio-projects .tech .icons img:hover {
+  filter: grayscale(100%);
+}
+
+#portfolio-projects .tech .icons .icon img {
+  width: 100%;
+  max-width: 80px;
+}
+
+#portfolio-projects .video {
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  #portfolio-projects h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #portfolio-projects p {
+    font-size: 1rem;
+  }
+  #portfolio-projects h3 {
+    text-align: center;
+  }
+  #portfolio-projects .video iframe {
+    width: 100% !important;
+  }
+  #portfolio-projects .info .buttons a {
+    margin-bottom: 10px;
+  }
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+  #portfolio-projects .info .buttons {
+    text-align: center;
+  }
+  #portfolio-projects .info .buttons a {
+    margin-bottom: 10px;
+  }
+  #portfolio-projects .tech .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
